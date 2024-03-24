@@ -1,7 +1,7 @@
 
 # Electra Mike Corp E-Commerce Site 🛒
 
-Welcome to the Electra Mike Corp E-Commerce Site repository! This project is a throwback to my beginnings as a programmer — a final assignment from my first-year programming course. 🎓 It's a simple, static e-commerce webpage built primarily with HTML and CSS. 🎨👨‍💻
+Welcome to the Electra Mike Corp E-Commerce Site repository! This project is a throwback to my beginnings as a programmer — a final assignment from my first-year programming course in collaboration with my partner [Robel Getnet](https://www.linkedin.com/in/robel-getnet-geremew/) from 2017. 🎓 It's a simple, static e-commerce webpage built primarily with HTML and CSS. 🎨👨‍💻
 
 ## About the Project 📖
 
