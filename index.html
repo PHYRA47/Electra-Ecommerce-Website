@@ -1,0 +1,144 @@
+﻿<!DOCTYPE html>
+
+<html lang="en" xmlns="http://www.w3.org/1999/xhtml">
+<head>
+    <meta charset="utf-8" />
+    <link rel="stylesheet" type="text/css" href="css/indexcss.css" />
+    <title>Electra™ Mike Corp</title>
+</head>
+<body>
+    <header>
+        <div id="logo">
+            <img src="images/logo(2).png" alt="Electra" width="150" />
+        </div>
+        <div id="searchBar">
+            <form action="www.itsearches.com">
+                <input value="Search Electra™" maxlength="50" size="25" name="q" type="text" onclick="this.value = '';" title="Search" name="Q">
+                <input type="button" value="Search" />
+            </form>
+        </div>
+        <div id="nav">
+            <ul>
+                <li><a href="">HOME</a></li>
+                <li class="dropdown">
+                    <a href="" class="dropdownButton">PRODUCTS</a>
+                    <div class="dropdownContent">
+                        <a href="#">For Home</a>
+                        <a href="#">For Work</a>
+                        <a href="#">For Entertainment</a>
+                        <a href="#">For Fun</a>
+                    </div>
+                </li>
+                <li><a href="">RESOURCES</a></li>
+                <li><a href="">SERVICES</a></li>
+                <li><a href="">SUPPORT</a></li>
+            </ul>
+        </div>
+    </header>
+    <div id="sideNav">
+        <a><img width="10" src="images/circle.png" /></a>
+        <a><img width="10" src="images/circle.png" /></a>
+        <a><img width="10" src="images/circle.png" /></a>
+        <a><img width="10" src="images/circle.png" /></a>
+        <a><img width="10" src="images/circle.png" /></a>
+    </div>
+    <section>
+        <div id="slider">
+            <img id="a" src="images/slides/1.jpg" />
+            <input class="button" id="button1" type="button" value="<<" onclick="slideBack();" />
+            <input class="button" id="button2" type="button" value=">>" onclick="slideFront();" />
+        </div>
+        <div id="imageGallery">
+            <div class="img">
+                <a href="#"><img src="images/laptopImage2.png" alt="Notebooks" width="300" height="200"></a>
+                <div class="detail">Notebooks & Ultrabooks</div>
+            </div>
+            <div class="img">
+                <a href="#"><img src="images/tvImage.png" alt="TVs" width="300" height="200"></a>
+                <div class="detail">TVs & Home theatre</div>
+            </div>
+            <div class="img">
+                <a href="#"><img src="images/smartPhoneImage.png" alt="Phones" width="300" height="200"></a>
+                <div class="detail">Phones, Tablets & Smart Devices</div>
+            </div>
+            <div class="img">
+                <a href="#"><img src="images/speaker1.png" alt="Speakers" width="300" height="200"></a>
+                <div class="detail">Surrounding Speakers</div>
+            </div>
+
+        </div>
+        <div id="article">
+            <p>
+                Welcome to the Future. Inspired by Innovations.<br /> Electra Mike Corp.
+            </p>
+            <button type="button">See more</button>
+
+        </div>
+        <div id="map"></div>
+        <div id="CEO">
+            <h1>Meet the CEOs</h1>
+            <div class="card">
+                <img src="images/avatar.png" alt="###" style="width:300px">
+                <div class="container">
+                    <h4><b>Fromsa Teshome</b></h4>
+                    <p>Graphics Designer</p>
+                </div>
+            </div>
+            <div class="card">
+                <img src="images/avatar.png" alt="###" style="width:300px">
+                <div class="container">
+                    <h4><b>Robel Getnet</b></h4>
+                    <p>Algorithm Programmer</p>
+                </div>
+            </div>
+        </div>
+    </section>
+    <footer class="footer-distributed">
+        <div class="footer-left">
+            <h3><img src="images/logo(1).png" width="40%" /></h3>
+            <p class="footer-links">
+                <a href="#">Blog</a><br />
+                <a href="#">Pricing</a><br />
+                <a href="#">About</a><br />
+                <a href="#">Faq</a><br />
+            </p>
+            <p class="footer-company-name">Electra™ MikeCope &copy; 2015</p>
+        </div>
+        <div class="footer-center">
+            <div>
+                <i class="fa fa-map-marker"></i>
+                <p>Addis Ababa, Ethiopia</p>
+            </div>
+            <div>
+                <i class="fa fa-phone"></i>
+                <p>+251 912 3456</p>
+            </div>
+            <div>
+                <i class="fa fa-envelope"></i>
+                <p><a href="#">support@electra.com</a></p>
+            </div>
+        </div>
+        <div class="footer-right">
+            <p class="footer-company-about">
+                <span>About the company</span>
+                Lorem ipsum dolor sit amet, consectateur adispicing elit. Fusce euismod convallis velit, eu auctor lacus vehicula sit amet.
+            </p>
+            <div class="footer-icons">
+                <a href="#"><i class="fa fa-facebook"></i></a>
+                <a href="#"><i class="fa fa-twitter"></i></a>
+                <a href="#"><i class="fa fa-linkedin"></i></a>
+                <a href="#"><i class="fa fa-github"></i></a>
+            </div>
+        </div>
+        <div class="footer-right">
+            <p>Contact Us</p>
+            <form action="#" method="post">
+                <input type="text" name="email" placeholder="Email" />
+                <textarea name="message" placeholder="Message"></textarea>
+                <button>Send</button>
+            </form>
+        </div>
+
+    </footer>
+</body>
+</html>
